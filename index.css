@@ -1,0 +1,51 @@
+body {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.clock-container {
+  border: solid 6px yellow;
+  padding: 30px;
+  background-color: green;
+  box-shadow: 0px 4px 7px 15px palevioletred ;
+
+}
+.span {
+  color: white;
+  font-size: 50px;
+}
+.p {
+  text-align: center;
+  font-size: larger;
+  font-weight: 1000;
+  color: cornsilk;
+  margin-top: 30px;
+  text-shadow: 0px 4px 5px ;
+  animation: animate 10s infinite;
+}
+@keyframes animate {
+  0% {
+    transform: scale(0.5);
+  }
+  25% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(2);
+  }
+  75% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(3);
+  }
+}
+.clock {
+  font-size: larger;
+  font-weight: 1000;
+  text-align: center;
+  text-shadow: 0px 3px 4px 10px;
+}
